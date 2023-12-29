@@ -22,3 +22,14 @@ for _ in range(n):
     y += dy[move_dir] * dist
 
 print(x,y)
+
+
+# # dictionary에 mapping 시킨다
+# mapping = {
+#     'E' : 0,
+#     'S' : 1,
+#     'W' : 2,
+#     'N' : 3
+# }
+
+# move_dir = mapping[c_dir]
